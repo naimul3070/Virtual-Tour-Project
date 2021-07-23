@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* Make contents unselectable*/
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.firstBackground {
+  background-repeat: no-repeat;
+  background-image: url("https://images.unsplash.com/photo-1475274047050-1d0c0975c63e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80");
+}
+
+.wp-block-cover-image {
+  background-attachment: fixed;
+  background-position: 50% 0;
+}
+
+.transparent-card-background {
+  position: relative;
+  background: rgb(52, 53, 56, 0.6);
+}
+
+.transparent-card-background-benifits {
+  position: relative;
+  background: rgb(52, 53, 56, 0.8);
+}
+
+.service:hover {
+  transform: scale(1.05);
+}
+
+.premium-pack {
+  position: absolute;
+  top: 3px;
+  width: 240px;
+  left: -79px;
+  transform: rotate(-45deg);
+}
+
+.premium-pack-image-card {
+  position: absolute;
+  top: 31px;
+  width: 240px;
+  left: -75px;
+  transform: rotate(-45deg);
+}
+
+/* .table-hootsuiteFeaturesSection {
+  border: 1px solid white;
+}
+
+.table-hootsuiteFeaturesSection tr {
+  border: 1px solid white;
+} */
+
+.table-hootsuiteFeaturesSection tr th {
+  /* border: 1px solid white; */
+  padding: 1rem;
+}
+
+.table-th-left-border {
+  border-right: 1px solid gray;
+}
+
+.table-th-background-low-opacity {
+  background: rgb(52, 53, 56, 0.6);
+}
+
+.table-th-background-high-opacity {
+  background: rgb(52, 53, 56, 0.9);
+}
+
+.hover-effect-image:hover {
+  background: rgb(55, 65, 81, 0.6);
+}
+.slick-prev:before,
+.slick-next:before {
+  color: black !important;
+}
+button:focus {
+  outline: none;
+}
+
+/* Over ride the pagination icon bg */
+.MuiPaginationItem-textPrimary.Mui-selected {
+  color: #fff;
+  background-color: #000000 !important;
+}
